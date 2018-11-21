@@ -1,91 +1,183 @@
-.nav-thing{
-    color:white;}
-#nav-thing-1{
-     padding-top:30.9%;
-    padding-right:1%;
-     font-size: 120%;
-         color:rgb(230,230)		;
- display: inline-block;
-}
-#nav-thing-2{
- float: right;
-   
-    padding-right: 10px;
-    color:rgb(230,230)		;
-        font-size: 120%;
+#lander1 {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
 
-}
-.navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
+    /*-webkit-transition: opacity 3s ease-in-out;*/
+    /*-moz-transition: opacity 3s ease-in-out;*/
+    /*-ms-transition: opacity 3s ease-in-out;*/
+    /*-o-transition: opacity 3s ease-in-out;*/
 }
 
-.navbar li { color: #000 }
-.pie{
-    padding-top:1%;
-    padding-right:1%;
+.nav-thing {
+    color: white;
+}
+
+#nav-thing-1 {
+    padding-top: 30.9%;
+    padding-right: 1%;
     font-size: 120%;
-     float: right;
- display: inline-block;
+    color: rgb(230, 230);
+    display: inline-block;
 }
+
+#nav-thing-2 {
+    float: right;
+
+    padding-right: 10px;
+    color: rgb(250, 250, 250);
+    font-size: 140%;
+
+
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar li {
+    color: #000
+}
+
+.pie {
+    padding-top: 1%;
+    padding-right: 1%;
+    font-size: 120%;
+    float: right;
+    display: inline-block;
+}
+
 #landing {
-        display: table;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(rgba(0, 0, 0, 0.9),
-        rgba(0, 0, 0, 0.1)),
-        url('img/galaxy.jpeg') no-repeat center;
-        background-size: cover;
-    }
- html,
-    body {
-        width: 100%;
-        height: 100%;
-    }
-      #text-vertical-center {
-        text-align: center;
-        vertical-align: middle;
-        display: table-cell;
-        color: white;
-    }
-    #pizza{
-        font-size: 900%;
-    }
-     #pizza2{
-        font-size: 250%;
-    }
-    #landing2 {
-        display: table;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(rgba(0, 0, 0, 0.9),
-        rgba(0, 0, 0, 0.1)),
-        url('img/3406.jpg') no-repeat center;
-        background-size: cover;
-    }
-    #cookie{
-        display: table;
-         width: 100%;
-        height: 50%;
-         background-size: cover;
-          background-color: white;
-       
-    }
-     #pizzad{
-         margin-right: 50px;
-           margin-left: 50px;
-           padding-bottom:75px;
-            padding-top:75px;
-         color: black;
-            font-size: 500%;
-             border: 2px solid black;
-        }
-    #x{
-        margin-top: 1%;
-    }
-    $primary-color: #FF6B6B;
-$primary-color-hover: scale-color($primary-color, $lightness: 32%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.1)),
+    url('img/IMG_4923.JPG') no-repeat center;
+    background-size: cover;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell color: white;
+}
+
+#pizza {
+    font-size: 900%;
+   
+}
+#set{
+margin-top:500px;
+}
+#pizza2 {
+    font-size: 250%;
+    ;     
+}
+}
+
+#landing2 {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.1)),
+    url('img/3406.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#landing3 {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.1)),
+    url('img/blueprint.jpg') no-repeat center;
+    background-size: cover;
+}
+#landing7 {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0)),
+    url('img/code.jpg') no-repeat center;
+    background-size: cover;
+
+}
+#landing8 {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0)),
+    url('img/tube.jpg') no-repeat center;
+    background-size: cover;
+
+}
+#landing9 {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0)),
+    url('img/valley.jpg') no-repeat center;
+    background-size: cover;
+
+}
+#cookie {
+    display: table;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom:5%;
+
+}
+#l1{
+    text-align: center;
+    color:white;
+padding-top: 17.5%;
+font-size:1000%;
+}
+#pizzad {
+    font-family: "Effra", Helvetica, sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: black;
+    font-size: 500%;
+    border: 2px solid black;
+}
+
+#th {
+    line-height: 200%;
+    font-family: "Effra", Helvetica, sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+
+#x {
+    margin-top: 1%;
+}
+
+$primary-color: #FF6B6B;
+$primary-color-hover: scale-color($primary-color,
+$lightness: 100%);
 
 body {
     color: #768390;
@@ -94,17 +186,25 @@ body {
     padding: 0;
     -webkit-font-smoothing: antialiased;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #3D4351;
     margin-top: 0;
 }
-a {
-    color: $primary-color;
-    &:hover {
-        color: $primary-color-hover;
-        text-decoration: none;
-    }
+
+#nav-thing-2 {
+    transition: all .05s ease-in-out;
 }
+
+#nav-thing-2:hover {
+    transform: scale(1.1);
+}
+
 .example-header {
     background: #3D4351;
     color: #FFF;
@@ -123,6 +223,7 @@ a {
         font-weight: 700;
     }
 }
+
 .container-fluid {
     .row {
         padding: 0 0 4em 0;
@@ -148,237 +249,272 @@ a {
     TIMELINE
 ==================================*/
 
-    /*-- GENERAL STYLES
+/*-- GENERAL STYLES
     ------------------------------*/
-    .timeline {
-        line-height: 1.4em;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        h1, h2, h3, h4, h5, h6 {
-            line-height: inherit;
-        }
+
+.timeline {
+    line-height: 1.4em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: inherit;
     }
+}
 
-    /*----- TIMELINE ITEM -----*/
+/*----- TIMELINE ITEM -----*/
 
-    .timeline-item {
-        padding-left: 40px;
-        position: relative;
-        &:last-child {
-            padding-bottom: 0;
-        }
+.timeline-item {
+    padding-left: 40px;
+    position: relative;
+    &:last-child {
+        padding-bottom: 0;
     }
+}
 
-    /*----- TIMELINE INFO -----*/
+/*----- TIMELINE INFO -----*/
 
-    .timeline-info {
-        font-size: 12px;
-        font-weight: 700;
-        letter-spacing: 3px;
-        margin: 0 0 .5em 0;
-        text-transform: uppercase;
-        white-space: nowrap;
-    }
-    /*----- TIMELINE MARKER -----*/
+.timeline-info {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0 0 .5em 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
 
-    .timeline-marker {
+/*----- TIMELINE MARKER -----*/
+
+.timeline-marker {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+    &:before {
+        background: $primary-color;
+        border: 3px solid transparent;
+        border-radius: 100%;
+        content: "";
+        display: block;
+        height: 15px;
         position: absolute;
-        top: 0; bottom: 0; left: 0;
+        top: 4px;
+        left: 0;
         width: 15px;
+        transition: background 0.3s ease-in-out,
+        border 0.3s ease-in-out;
+    }
+    &:after {
+        content: "";
+        width: 3px;
+        background: #CCD5DB;
+        display: block;
+        position: absolute;
+        top: 24px;
+        bottom: 0;
+        left: 6px;
+    }
+    .timeline-item:last-child &:after {
+        content: none;
+    }
+}
+
+.timeline-item:not(.period):hover .timeline-marker:before {
+    background: transparent;
+    border: 3px solid $primary-color;
+}
+
+/*----- TIMELINE CONTENT -----*/
+
+.timeline-content {
+    padding-bottom: 40px;
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/*----- TIMELINE PERIOD -----*/
+
+.period {
+    padding: 0;
+    .timeline-info {
+        display: none;
+    }
+    .timeline-marker {
         &:before {
-            background: $primary-color;
-            border: 3px solid transparent;
-            border-radius: 100%;
+            background: transparent;
             content: "";
-            display: block;
-            height: 15px;
-            position: absolute;
-            top: 4px; left: 0;
             width: 15px;
-            transition: background 0.3s ease-in-out,
-                    border 0.3s ease-in-out;
+            height: auto;
+            border: none;
+            border-radius: 0;
+            top: 0;
+            bottom: 30px;
+            position: absolute;
+            border-top: 3px solid #CCD5DB;
+            border-bottom: 3px solid #CCD5DB;
         }
         &:after {
             content: "";
-            width: 3px;
-            background: #CCD5DB;
-            display: block;
-            position: absolute;
-            top: 24px; bottom: 0; left: 6px;
-        }
-        .timeline-item:last-child &:after {
-            content: none;
+            height: 32px;
+            top: auto;
         }
     }
-    .timeline-item:not(.period):hover .timeline-marker:before {
-        background: transparent;
-        border: 3px solid $primary-color;
-    }
-
-    /*----- TIMELINE CONTENT -----*/
-
     .timeline-content {
-        padding-bottom: 40px;
-        p:last-child {
-            margin-bottom: 0;
-        }
+        padding: 40px 0 70px;
     }
+    .timeline-title {
+        margin: 0;
+    }
+}
 
-    /*----- TIMELINE PERIOD -----*/
-    
-    .period {
-        padding: 0;
-        .timeline-info {
-            display: none;
+
+.timeline-split {
+    @media (min-width: 768px) {
+        .timeline {
+            display: table;
+        }
+        .timeline-item {
+            display: table-row;
+            padding: 0;
+        }
+        .timeline-info,
+        .timeline-marker,
+        .timeline-content,
+        .period .timeline-info {
+            display: table-cell;
+            vertical-align: top;
         }
         .timeline-marker {
-            &:before {
-                background: transparent;
-                content: "";
-                width: 15px;
-                height: auto;
-                border: none;
-                border-radius: 0;
-                top: 0;
-                bottom: 30px;
-                position: absolute;
-                border-top: 3px solid #CCD5DB;
-                border-bottom: 3px solid #CCD5DB;
-            }
-            &:after {
-                content: "";
-                height: 32px;
-                top: auto;
-            }
+            position: relative;
         }
         .timeline-content {
-            padding: 40px 0 70px;
+            padding-left: 30px;
         }
-        .timeline-title {
-            margin: 0;
+        .timeline-info {
+            padding-right: 30px;
+        }
+        .period .timeline-title {
+            position: relative;
+            left: -45px;
         }
     }
+}
 
-    /*----------------------------------------------
-        MOD: TIMELINE SPLIT
-    ----------------------------------------------*/
-
-        .timeline-split {
-            @media (min-width: 768px) {
-                .timeline {
-                    display: table;
-                }
-                .timeline-item {
-                    display: table-row;
-                    padding: 0;
-                }
-                .timeline-info,
-                .timeline-marker,
-                .timeline-content,
-                .period .timeline-info {
-                    display: table-cell;
-                    vertical-align: top;
-                }
-                .timeline-marker {
-                    position: relative;
-                }
-                .timeline-content {
-                    padding-left: 30px;
-                }
-                .timeline-info {
-                    padding-right: 30px;
-                }
-                .period .timeline-title {
-                    position: relative;
-                    left: -45px;
-                }
-            }
-        }
-
-    /*----------------------------------------------
+/*----------------------------------------------
         MOD: TIMELINE CENTERED
     ----------------------------------------------*/
 
-        .timeline-centered {
-            @extend .timeline-split;
-            @media (min-width: 992px) {
-                &,
-                .timeline-item,
-                .timeline-info,
-                .timeline-marker,
-                .timeline-content {
-                    display: block;
-                    margin: 0;
-                    padding: 0;
-                }
-                .timeline-item {
-                    padding-bottom: 40px;
-                    overflow: hidden;
-                }
-                .timeline-marker {
-                    position: absolute;
-                    left: 50%;
-                    margin-left: -7.5px;
-                }
-                .timeline-info,
-                .timeline-content {
-                    width: 50%;
-                }
-                > .timeline-item:nth-child(odd) .timeline-info {
-                    float: left;
-                    text-align: right;
-                    padding-right: 30px;
-                }
-                > .timeline-item:nth-child(odd) .timeline-content {
-                    float: right;
-                    text-align: left;
-                    padding-left: 30px;
-                }    
-                > .timeline-item:nth-child(even) .timeline-info {
-                    float: right;
-                    text-align: left;
-                    padding-left: 30px;
-                }
-                > .timeline-item:nth-child(even) .timeline-content {
-                    float: left;
-                    text-align: right;
-                    padding-right: 30px;
-                }
-                > .timeline-item.period .timeline-content {
-                    float: none;
-                    padding: 0;
-                    width: 100%;
-                    text-align: center;
-                }
-                .timeline-item.period {
-                    padding: 50px 0 90px;
-                }
-                .period .timeline-marker:after {
-                    height: 30px;
-                    bottom: 0;
-                    top: auto;
-                }
-                .period .timeline-title {
-                    left: auto;
-                }
-            }
+.timeline-centered {
+    @extend .timeline-split;
+    @media (min-width: 992px) {
+        &,
+        .timeline-item,
+        .timeline-info,
+        .timeline-marker,
+        .timeline-content {
+            display: block;
+            margin: 0;
+            padding: 0;
         }
+        .timeline-item {
+            padding-bottom: 40px;
+            overflow: hidden;
+        }
+        .timeline-marker {
+            position: absolute;
+            left: 50%;
+            margin-left: -7.5px;
+        }
+        .timeline-info,
+        .timeline-content {
+            width: 50%;
+        }
+        >.timeline-item:nth-child(odd) .timeline-info {
+            float: left;
+            text-align: right;
+            padding-right: 30px;
+        }
+        >.timeline-item:nth-child(odd) .timeline-content {
+            float: right;
+            text-align: left;
+            padding-left: 30px;
+        }
+        >.timeline-item:nth-child(even) .timeline-info {
+            float: right;
+            text-align: left;
+            padding-left: 30px;
+        }
+        >.timeline-item:nth-child(even) .timeline-content {
+            float: left;
+            text-align: right;
+            padding-right: 30px;
+        }
+        >.timeline-item.period .timeline-content {
+            float: none;
+            padding: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .timeline-item.period {
+            padding: 50px 0 90px;
+        }
+        .period .timeline-marker:after {
+            height: 30px;
+            bottom: 0;
+            top: auto;
+        }
+        .period .timeline-title {
+            left: auto;
+        }
+    }
+}
 
-    /*----------------------------------------------
+/*----------------------------------------------
         MOD: MARKER OUTLINE
     ----------------------------------------------*/
-        
-        .marker-outline {
-            .timeline-marker {
-                &:before {
-                    background: transparent;
-                    border-color: $primary-color;
-                }
-            }
-            .timeline-item:hover .timeline-marker:before {
-                background: $primary-color;
-            }
+
+.marker-outline {
+    .timeline-marker {
+        &:before {
+            background: transparent;
+            border-color: $primary-color;
         }
-    
+    }
+    .timeline-item:hover .timeline-marker:before {
+        background: $primary-color;
+    }
+}
+
+#construction {
+    height: 4%;
+    width: 100%;
+    background: repeating-linear-gradient( 45deg,
+    #FFCC00,
+    #FFCC00 15px,
+    #000000 15px,
+    #000000 30px);
+    opacity: 0.6;
+}
+
+#opacity1 {}
+
+#construction-word {
+    margin-left: 200%;
+    font-size: 300%;
+}
+
+
+#pad{
+    margin-top:3%;
+}
+p {
+font-size: 120%;
+}
